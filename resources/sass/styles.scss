@@ -1,0 +1,118 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    
+    color: #222;
+}
+
+.navbar{
+    padding: .4rem;
+}
+
+.navbar-nav li{
+    padding-right: 10px;
+}
+.nav-link{
+    font-size: 1.05rem !important;
+}
+
+#dropdown_target:hover{
+    color: rgb(20, 65, 150);
+}
+
+.contact-banner{
+    width: 100%;
+    height: 300px;
+}
+
+.contact-header{
+    color: #d5d5d5;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 400px;
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-70%);
+}
+.social a{
+    font-size: 4.5em;
+    padding: 3rem;
+}
+
+.fa-facebook-square {
+    color: rgb(16, 16, 78);
+}
+.fa-google-plus{
+    color: #df4f39;
+}
+.fa-twitter{
+    color: #00aced;
+}
+.fa-youtube{
+    color: #bb0000;
+}
+.fa-instagram{
+    color: #517fa4;
+}
+
+
+.fa-facebook-square:hover,
+.fa-google-plus:hover,
+.fa-twitter:hover,
+.fa-youtube:hover,
+.fa-instagram:hover{
+    color: #d5d5d5;
+}
+
+.form{
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 5vw;
+    background-color: rgb(248, 248, 250);
+    border-radius: 16px;
+    box-shadow: 10px 10px 8px #7c7b7b; 
+}
+
+// .container-fluid .jumbotron{
+//     background: rgb(75, 75, 216);
+// }
+
+label {
+    // position: static;
+    padding-right: 250px;
+}
+
+footer{
+    background-color: aqua;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+.lead a{
+    text-decoration: none;
+}
+
+hr.light{
+    border-top: 1px solid #cccbcb;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+.jumbotron{
+    background: rgb(255, 255, 255);
+}
+
+hr.light-100{
+    border-top: 1px solid #cccbcb;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;  
+}
+
+footer a{
+    color: #cccbcb;
+}
